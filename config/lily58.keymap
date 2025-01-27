@@ -20,11 +20,11 @@
 
         default_corne {
             bindings = <
-&trans    &trans       &trans       &trans       &trans  &trans                                 &trans   &trans  &trans     &trans      &trans     &trans
-&kp TAB   &kp Q        &kp W        &kp F        &kp P   &kp B                                  &kp J    &kp L   &kp U      &kp Y       &kp Y      &kp SEMI
-&kp CAPS  &mt LG(A) A  &kp R        &kp S        &kp T   &kp G                                  &kp M    &kp N   &kp E      &kp I       &kp O      &kp APOS
-&kp Q     &mt LG(Z) Z  &mt LG(X) X  &mt LG(C) C  &kp D   &mt LG(V) V          &trans    &trans  &kp K    &kp H   &kp COMMA  &kp PERIOD  &kp SLASH  &kp RETURN
-                                    &trans       &trans  &mt LG(SPACE) SPACE  &trans    &trans  &kp RET  &trans  &trans
+&trans          &trans           &trans       &trans        &trans             &trans                                 &trans   &trans                       &trans         &trans      &trans               &trans
+&kp TAB         &mt LC(LG(Q)) Q  &kp W        &kp F         &kp P              &kp B                                  &kp J    &kp L                        &kp U          &kp Y       &kp Y                &kp SEMI
+&sk LEFT_SHIFT  &mt LG(A) A      &kp R        &mt LG(S) S   &kp T              &kp G                                  &kp M    &mt LG(N) N                  &kp E          &kp I       &kp O                &sk RSHIFT
+&kp Q           &mt LG(Z) Z      &mt LG(X) X  &mt LG(C) C   &kp D              &mt LG(V) V          &trans    &trans  &kp K    &kp H                        &kp COMMA      &kp PERIOD  &mt LG(SLASH) SLASH  &kp RETURN
+                                              &kp LEFT_GUI  &mt DELETE DELETE  &mt LG(SPACE) SPACE  &to 3     &trans  &kp RET  &mt LG(BACKSPACE) BACKSPACE  &kp RIGHT_GUI
             >;
 
             label = "Mac - Corne";
