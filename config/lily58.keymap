@@ -21,11 +21,11 @@
 
         default_corne {
             bindings = <
-&trans          &trans           &trans       &trans        &trans             &trans                                                    &trans   &trans                       &trans         &trans      &trans               &trans
-&kp TAB         &mt LC(LG(Q)) Q  &kp W        &kp F         &kp P              &kp B                                                     &kp J    &kp L                        &kp U          &kp Y       &kp Y                &kp SEMI
-&sk LEFT_SHIFT  &mt LG(A) A      &kp R        &mt LG(S) S   &kp T              &kp G                                                     &kp M    &mt LG(N) N                  &kp E          &kp I       &kp O                &sk RSHIFT
-&kp Q           &mt LG(Z) Z      &mt LG(X) X  &mt LG(C) C   &kp D              &mt LG(V) V          &to 0    &sk LA(LC(LG(LEFT_SHIFT)))  &kp K    &kp H                        &kp COMMA      &kp PERIOD  &mt LG(SLASH) SLASH  &kp RETURN
-                                              &kp LEFT_GUI  &mt DELETE DELETE  &mt LG(SPACE) SPACE  &to 3    &to 4                       &kp RET  &mt LG(BACKSPACE) BACKSPACE  &kp RIGHT_GUI
+&trans          &trans           &trans       &trans        &trans             &trans                                                          &trans                       &trans       &trans         &trans      &trans               &trans
+&kp TAB         &mt LC(LG(Q)) Q  &kp W        &kp F         &kp P              &kp B                                                           &kp J                        &kp L        &kp U          &kp Y       &kp Y                &kp SEMI
+&sk LEFT_SHIFT  &mt LG(A) A      &kp R        &mt LG(S) S   &kp T              &kp G                                                           &kp M                        &mt LG(N) N  &kp E          &kp I       &kp O                &sk RSHIFT
+&kp Q           &mt LG(Z) Z      &mt LG(X) X  &mt LG(C) C   &kp D              &mt LG(V) V  &to 0                  &sk LA(LC(LG(LEFT_SHIFT)))  &kp K                        &kp H        &kp COMMA      &kp PERIOD  &mt LG(SLASH) SLASH  &kp RETURN
+                                              &kp LEFT_GUI  &mt DELETE DELETE  &sl 3        &mt LG(SPACE) SPACE    &kp RETURN                  &mt LA(BACKSPACE) BACKSPACE  &to 4        &kp RIGHT_GUI
             >;
 
             label = "Mac - Corne";
@@ -65,9 +65,9 @@
         corne-one-shot {
             bindings = <
 &trans  &trans             &trans            &trans          &trans            &trans                            &trans                       &trans            &trans           &trans             &trans                 &trans
-&trans  &kp LS(NUMBER_1)   &kp LS(N2)        &kp LS(N3)      &kp LS(N4)        &kp LS(N5)                        &kp LS(N6)                   &kp LS(N7)        &kp LS(N8)       &kp LS(MINUS)      &kp LS(N0)             &trans
+&trans  &kp LS(NUMBER_1)   &kp LS(N2)        &kp LS(N3)      &kp LS(N4)        &kp LS(N5)                        &kp LS(N6)                   &kp LS(N7)        &kp LS(N8)       &kp LS(MINUS)      &to 5                  &trans
 &trans  &kp LS(BACKSLASH)  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LS(NUMBER_9)  &kp APOSTROPHE                    &mt LS(HOME) LS(APOSTROPHE)  &kp LS(NUMBER_0)  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &mt LS(END) SEMICOLON  &kp LS(SEMICOLON)
-&trans  &trans             &trans            &trans          &trans            &to 5           &trans    &to 6   &trans                       &trans            &trans           &trans             &kp BACKSLASH          &trans
+&trans  &trans             &trans            &trans          &trans            &to 5           &trans    &to 6   &kp LS(EQUAL)                &kp EQUAL         &trans           &trans             &kp BACKSLASH          &trans
                                              &trans          &trans            &trans          &trans    &trans  &trans                       &trans            &trans
             >;
 
